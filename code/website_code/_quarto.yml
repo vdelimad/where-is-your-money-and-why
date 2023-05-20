@@ -2,25 +2,25 @@
 
 project:
   type: website
-  output-dir: ../../docs
+  output-dir: ../../
 
 website:
   title: Where is Your Money, and Why?
   search: false
-  favicon: ../img/favicon.ico
+  favicon: images/img/favicon.ico
   navbar:
     left:
       - href: index.qmd
         text: Home       
-      - href: methods.qmd
+      - href: docs/methods.qmd
         text: Methods              
-      - href: data.qmd
+      - href: docs/data.qmd
         text: Data
-      - href: authors.qmd
+      - href: docs/authors.qmd
         text: Authors        
   page-footer:
     left: |
-      A project by [Group 4](authors.qmd) <br>
+      A project by [Group 4](docs/authors.qmd) <br>
     right: |
       Made with [Quarto](https://quarto.org/)<br>
       [View the source at {{< fa brands github >}} GitHub]({{< var course.github >}})
