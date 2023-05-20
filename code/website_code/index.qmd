@@ -47,7 +47,7 @@ First, we explore the average assets, equity, or liabilities segmented of each a
 #| fig-cap: "shows an interactive table with a dropdown allowing the selection of assets, equity, or liabilities. Given the static nature of this website, the table is sorted only by Equity."
 
 width_percentage = "100%"
-IFrame(src='../images/plots/interactive_table.html', width=width_percentage, height=600)
+IFrame(src='images/plots/interactive_table.html', width=width_percentage, height=600)
 
 
 ```
