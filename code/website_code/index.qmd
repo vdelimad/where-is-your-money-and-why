@@ -8,7 +8,7 @@ format:
 # Where is Your Money, and Why? {#home}
 
 
-![Photo credit: @wilking_signs_2023](../img/header.jpg){width=80%}
+![Photo credit: @wilking_signs_2023](img/header.jpg){width=80%}
 
 
 ::: {.callout-note appearance="simple"}
