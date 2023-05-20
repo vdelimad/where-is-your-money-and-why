@@ -20,7 +20,7 @@ website:
         text: Authors        
   page-footer:
     left: |
-      A project by [Group 4](docs/authors.qmd) <br>
+      A project by Group 4 <br>
     right: |
       Made with [Quarto](https://quarto.org/)<br>
       [View the source at {{< fa brands github >}} GitHub]({{< var course.github >}})
