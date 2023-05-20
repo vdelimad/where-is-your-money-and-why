@@ -12,7 +12,7 @@ format:
 
 
 ::: {.callout-note appearance="simple"}
-All code used in this report is available on [GitHub](https://github.com/anly503/spring2023-project-team-4).
+All code used in this report is available on [GitHub](https://github.com/vdelimad/where_is_your_money_and_why).
 ::: 
 
 
