@@ -95,7 +95,7 @@ html_structure = """
 
 # add iframes to the html
 for i, date in enumerate(unique_dates):
-    map_path = f'../website/plots/map_{i}.html'
+    map_path = f'images/plots/map_{i}.html'
     html_structure += f'<div class="map-box"><div class="map-title">{date}</div>{IFrame(src=map_path, width=350, height=300)._repr_html_()}</div>'
 
 # close html
@@ -120,7 +120,7 @@ In @fig-dot-and-heatmap, we take a deeper dive into what’s going on. We can se
 #| fig-cap: "shows dots representing the ZIP Code of the FDIC-insured banks' location within the U.S., where the bubbles represent the relative size of the assets, allowing one to see the location of the largest banks."
 
 width_percentage = "100%"
-IFrame(src='../website/plots/heatmap.html', width=width_percentage, height=600)
+IFrame(src='images/plots/heatmap.html', width=width_percentage, height=600)
 
 ```
 
@@ -145,7 +145,7 @@ Intuition may suggest that California, Texas, and New York should have significa
 #| fig-cap: "shows the differences in the size of the deposits in California, Ohio, Texas, North Carolina, New York, and South Dakota."
 
 width_percentage = "100%"
-IFrame(src='../website/plots/plot-3.html', width=width_percentage, height=650)
+IFrame(src='images/plots/plot-3.html', width=width_percentage, height=650)
 
 ```
 
@@ -168,7 +168,7 @@ While not central to @fig-state-bank-deposits, we noted a rapid deposit growth i
 #| fig-cap: "shows the temporal trends in domestic deposits held by different asset classes, for the past 3 decades"
 
 width_percentage = "100%"
-IFrame(src='../website/plots/timeseries/plot_1.html', width=width_percentage, height=600)
+IFrame(src='images/plots/timeseries/plot_1.html', width=width_percentage, height=600)
 
 ```
 
@@ -183,7 +183,7 @@ After exploring the states with the most deposits in the US, we switch gears to 
 #| fig-cap: "shows the 10 largest banks in the US for Q42022 by the amount of assets held"
 
 width_percentage = "100%"
-IFrame(src='../website/plots/timeseries/plot_2.html', width=width_percentage, height=600)
+IFrame(src='images/plots/timeseries/plot_2.html', width=width_percentage, height=600)
 
 ```
 
@@ -198,7 +198,7 @@ The US is home to some of the largest and most popular commercial banks in the w
 #| fig-cap: "shows the distribution of banks in the US for Q42022, grouped by the amount of assets held at the time"
 
 width_percentage = "100%"
-IFrame(src='../website/plots/timeseries/plot_3.html', width=width_percentage, height=600)
+IFrame(src='images/plots/timeseries/plot_3.html', width=width_percentage, height=600)
 
 ```
 
@@ -213,7 +213,7 @@ Looking at the distribution of commercial banks in the US by the assets in posse
 #| fig-cap: "shows the temporal trend of the distribution of assets held by different asset classes"
 
 width_percentage = "100%"
-IFrame(src='../website/plots/timeseries/plot_4.html', width=width_percentage, height=600)
+IFrame(src='images/plots/timeseries/plot_4.html', width=width_percentage, height=600)
 
 ```
 
@@ -239,7 +239,7 @@ First, we will look at the highest and lowest banks in terms of equity capital r
 #| fig-cap: "Linked histogram and line chart of top and bottom 20 banks in terms of average equity capital ratio, along with overall average. Selecting a column of the histogram will modify the line chart to only display that particular bank."
 
 width_percentage = "100%"
-IFrame(src='../website/plots/eqr/plot1.html', width=width_percentage, height=800)
+IFrame(src='images/plots/eqr/plot1.html', width=width_percentage, height=800)
 
 ```
 
@@ -261,7 +261,7 @@ Next, we will attempt to get a better idea of the equity capital ratio for the s
 #| fig-cap: "Two line plots. The upper line plot reflects the quarterly equity capital ratio over a 30-year period for each of the top four banks we have noted, and the lower line plot reflects the overall average equity capital ratio for each quarter."
 
 width_percentage = "100%"
-IFrame(src='../website/plots/eqr/plot2_double.html', width=width_percentage, height=750)
+IFrame(src='images/plots/eqr/plot2_double.html', width=width_percentage, height=750)
 
 ```
 
@@ -279,7 +279,7 @@ For the next part of the analysis, we will focus on smaller banks in terms of av
 #| fig-cap: "Heatmap of equity capital ratio vs average total assets owned. Filtered to only include banks with average total assets owned less than or equal to 500,000. The plot also shows the overall distibutions of the two columns in histogram form."
 
 width_percentage = "100%"
-IFrame(src='../website/plots/eqr/plot3.html', width=width_percentage, height=700)
+IFrame(src='images/plots/eqr/plot3.html', width=width_percentage, height=700)
 
 ```
 
@@ -294,7 +294,7 @@ This plot attempts to look at smaller banks in terms of mean total assets owned 
 #| fig-cap: "Bubble plot showing equity capital and equity capital ratio for Q4 of given year. Color represents bank class, as noted in the legend."
 
 width_percentage = "100%"
-IFrame(src='../website/plots/eqr/plot4_large.html', width=width_percentage, height=650)
+IFrame(src='images/plots/eqr/plot4_large.html', width=width_percentage, height=650)
 
 ```
 
