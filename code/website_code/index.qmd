@@ -93,7 +93,7 @@ html_structure = """
     /* Media query for mobile devices */
     @media (max-width: 767px) {
         .map-box {
-            width: 100%;
+            width: 90%;
         }
     }
 </style>
