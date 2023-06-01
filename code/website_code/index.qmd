@@ -89,6 +89,13 @@ html_structure = """
         text-align: center;
         font-weight: bold;
     }
+
+    /* Media query for mobile devices */
+    @media (max-width: 767px) {
+        .map-box {
+            width: 100%;
+        }
+    }
 </style>
 <div class="map-container">
 """
