@@ -112,7 +112,7 @@ a <- ggplotly(a, tooltip = c("text")) %>%
   )
 
 a
-saveWidget(a, file = "../../website/plots/timeseries/plot_1.html")
+saveWidget(a, file = "../../images/plots/timeseries/plot_1.html")
 
 ```
 
@@ -221,7 +221,7 @@ b <- b + scale_x_discrete(limits = fct_reorder(sliced$Name, sliced$MeanAssets, .
 
 b <- ggplotly(b, tooltip = "text")
 b
-saveWidget(b, file = "../../website/plots/timeseries/plot_2.html")
+saveWidget(b, file = "../../images/plots/timeseries/plot_2.html")
 ```
 
 
@@ -294,7 +294,7 @@ c <- plot_ly(
     #color = "black"
   #)))
 c
-saveWidget(c, file = "../../website/plots/timeseries/plot_3.html")
+saveWidget(c, file = "../../images/plots/timeseries/plot_3.html")
 ```
 
 Looking at the distribution of commercial banks in the US by the assets in possession, we get a better idea of what the entire distribution of assets is across the country. Our knowledge is mostly limited to the big brand names of banks: JP Morgan Chase, Wells Fargo, Bank of America, etc. These banks are the minority in the larger picture, as their access to capital and resources is only enjoyed by 3.6% of banks in the US. The majority of these banks only hold between \$100,000 and \$1M, taking up 62.4% of the entire distribution. Surprisingly, we see that a substantial 15.7% of banks are extremely small, holding less than \$100,000 in assets in 2022. Only a small fraction of these banks are in fact extremely large, but as we will see in the next plot, they hold immense amounts of assets.
@@ -394,7 +394,7 @@ ap <- ap %>% layout(title= list(text = "", y = 0.98, font = f3))
 ap <- ap %>% layout(legend=list(title=list(text='Asset Group')))
 ap
 
-saveWidget(ap, file = "../../website/plots/timeseries/plot_4.html")
+saveWidget(ap, file = "../../images/plots/timeseries/plot_4.html")
 
 #
 ```
