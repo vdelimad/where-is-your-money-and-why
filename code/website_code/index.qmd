@@ -82,7 +82,7 @@ html_structure = """
     }
     .map-box {
         width: 50%;
-        padding: 5px;
+        padding: 2px;
         box-sizing: border-box;
     }
     .map-title {
